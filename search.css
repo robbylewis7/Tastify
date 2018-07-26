@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding-top: 150px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(https://images.unsplash.com/35/hKViPxgDRGuiGns6wv5S_IMG_5317.jpeg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=921adaafeb6478253d83aeaa0eb83f77&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+  
+  }
+  
+  fieldset {
+      border: 0;
+  }
+  
+  legend{
+    font-size: 24px;
+  }
+  
+  h1{
+    font-size: 18px;
+  }
+  
+  button{
+    width: 100px; 
+    height: 50px;
+    font-size: 20px;
+    opacity: .8;
+    background-color: #00e461;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+  
+  }
+  
+  #search-username{
+  height: 50px;
+  width: 50%;
+  font-size: 20px;
+  opacity: .8;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  
+  }
+  
+  .results{
+    padding-top: 100px;
+  }
+  
+  
+  
+  row::before,
+  .row::after {
+    display: table;
+    content: '';
+  }
+  
+  .row::after {
+    clear: both;
+  }
+  
+  .col-6{
+    float: left;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+    
+  }
+  .col-6 h2{
+    width: 200px;
+    height: 200px;
+    margin-top: 20%;
+    margin: 40% auto;
+    border-radius: 100%;
+    font-size: 24px;
+    text-align: center;
+    background-color: black;
+    padding-top: 80px;
+  }
+  
+  .col-6 h2:hover{
+    background-color: #00e461;
+    color: black;
+  }

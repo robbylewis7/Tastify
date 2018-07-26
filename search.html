@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>AJAX Youtube API example</title>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+        <link href="search.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    </head>
+    <body>
+      <h1>Enter an artist you enjoy listening to. Sit back and let us recommend some similar sounds.</h1>
+      <main role="main"  aria-live="assertive">
+        <fieldset>
+          <legend></legend>
+            <form action="#" class="js-search-form">
+              <label for="query"></label>
+              <input type="text" name="username" id="search-username" required>
+              <button type="submit">Search</button>
+            </form>
+        </fieldset>
+        <div class = "results">
+        </div>
+        <div class="js-search-results">  
+        </div>
+      </main>
+      <script src="search.js"></script>
+    </body>
+</html>
