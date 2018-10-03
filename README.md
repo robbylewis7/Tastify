@@ -7,4 +7,4 @@ The app is hosted on Heroku: <a href = "https://tastify--robbylewis.repl.co/">Li
 
 # Screenshots
 
-![A screenshot of my great app](screenshots/tastifyLanding.png)
+![A screenshot of my great app](screenshots/tastifyLanding.PNG)
