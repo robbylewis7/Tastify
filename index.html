@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Tastify</title>
+	<meta name="description" content="Playlist generator of possible artists to see in your city tonight!">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="./start.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href= "images/noun_explore_110230_000000.png">
+</head>
+<body>
+	<header role="banner">
+		<h1 id="logo">Tastify</h1>
+    <h3 id="sublogo">Find artists playing in your area tonight.</h3>
+	</header>
+
+    <div class = "headerIcons">
+    <img src = "images/noun_Map_1912557_FFFFFF.png" class = "mapIcon icons" alt = "Your location">
+    <img src = "images/noun_concert tickets_641887_FFFFFF.png" class = "concertIcon icons" alt = "Your tickets">
+    <img src = "images/noun_Playlist_374408_FFFFFF.png" class = "playlistIcon icons" alt = "Your playlist">
+    </div>
+
+	<main role="main">
+		<div class="getting-started">
+			<p>We'll make the playlist. You make the choice.</p>
+			<a href="https://accounts.spotify.com/authorize?client_id=886f76573b73462d8a80b09c733801b7&redirect_uri=https://tastify--robbylewis.repl.co/main.html&scope=user-read-private%20user-read-email%20user-read-birthdate%20playlist-modify-private%20playlist-modify-public&response_type=token"> 
+			<img class="spotifyConnectButton" src="./images/spotifyConnect.png" alt="Connect to Spotify">
+		</a>
+		</div>
+	</main>
+	<footer>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+</html>

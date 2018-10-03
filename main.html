@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Tastify</title>
+	<meta name="description" content="Playlist generator of possible artists to see in your city tonight!">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="shortcut icon" href="
+images/noun_explore_110230_000000.png" />
+	<link href="./main.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+	<header role="banner">
+		<h1 id="logo">Tastify</h1>
+		<div id="formWrapper">
+			<div class="instructions">Enter your city:</div>
+			<form id="search-form">
+				<input type="text" placeholder=" Los Angeles" id="search-term" aria-label="city">
+				<input type="submit" name="submit" id ="search-button">
+			</form>
+		</div>
+
+	</header>
+
+	<main role="main">
+		<div class="main-container">
+
+		</div>
+	</main>
+	<footer>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoBTaYyfmhXjOZG0V8fdWqgTaw-635yfw&libraries=places&callback=activatePlacesSearch" async defer></script>
+   	<script src="./index.js"></script>
+
+</body>
+</html>
